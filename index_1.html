@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+    <title>Weather Forecast</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        ul,
+        li {
+            list-style: none;
+        }
+        body{
+            background-color:#3399cc;
+            border: 10 px solid navy;
+            position: relative;
+            align-content: center;
+        }
+        .top{
+            font: 20px "Lucida Grande";
+            color:whitesmoke;
+            padding: 20%
+        }
+
+        .container{
+            margin: 20%;
+        }
+        .weather-box {
+            width: 900px;
+            height:520px;
+            margin: auto;
+            font-size: 0;
+            background: #3399cc;
+            border:2px solid whitesmoke;
+        }
+        .weather-box__item {
+            display: inline-block;
+            height:25%;
+            padding: 15px 0;
+            font-size: initial;
+            text-align: center;
+            align-content: center;
+            color: whitesmoke;
+            border:2px solid white;
+        }
+        .weather-box__item_1 {
+            width: 50%;
+
+            background:#3399cc;
+        };
+        .weather-box__item_2 {
+            width: 25%;
+            background:#33cccc;
+        }
+        .weather-box__item_3 {
+             width: 25%;
+             background:#996699;
+         }
+        .weather-box__item_4 {
+            width: 25%;
+            background:#c24747;
+        }
+        .weather-box__item_5 {
+            width: 25%;
+            background:#e2674a;
+        }
+        .weather-box__item_6 {
+            width: 25%;
+            background:#ffcc66;
+        }
+        .weather-box__item_7 {
+            width: 25%;
+            background:#99cc99;
+        }
+        .weather-box__item_8 {
+            width: 25%;
+            background:#669999;
+        }
+        .weather-box__item_9 {
+            width: 50%;
+            background:#cc6699;
+        }
+        .weather-box__item_10 {
+            width: 25%;
+            background:#339966;
+        }
+        .weather-box__item_11 {
+            width: 100%;
+            background:#666699;
+        }
+        .icon {
+        }
+    </style>
+</head>
+<body>
+<header><p1 class="top">CSS Weather Forecast <i class="icon wi wi-sunrise"></i></p1></header>
+<div><p2 class="container"><p class="context"CSS Weather Forecast <i class="wi wi-sunrise"></i></p>
+
+    <ul class="weather-box">
+        <li class="weather-box__item weather-box__item_1">
+            <span>Lisbon<br>21C</span>
+            <i class="icon wi wi-day-sunny"></i>
+        </li>
+
+        <li class="weather-box__item weather-box__item_2">
+            <span>Paris<br>11C</span>
+            <i class="icon wi wi-day-sunny"></i>
+        </li>
+
+        <li class="weather-box__item weather-box__item_3">
+            <span>Belgrade<br>15C</span>
+            <i class="icon wi wi-day-cloudy"></i>
+        </li>
+        <li class="weather-box__item weather-box__item_4">
+            <span>Moscow<br>21C</span>
+            <i class="icon wi wi-day-cloudy-high"></i>
+        </li>
+        <li class="weather-box__item weather-box__item_5">
+            <span>Tel Aviv<br>32C</span>
+            <i class="icon wi wi-hot"></i>
+        </li>
+        <li class="weather-box__item weather-box__item_6">
+            <span>Cairo<br>21C</span>
+            <i class="icon wi wi-day-sunny"></i>
+        </li>
+        <li class="weather-box__item weather-box__item_7">
+            <span>New-York<br>17C</span>
+            <i class="icon wi wi-day-thunderstorm"></i>
+        </li>
+        <li class="weather-box__item weather-box__item_8">
+            <span>New Delhi<br>17C</span>
+            <i class="icon wi wi-day-rain"></i>
+        </li>
+        <li class="weather-box__item weather-box__item_9">
+            <span>San Francisco<br>15C</span>
+            <i class="icon wi wi-day-cloudy"></i>
+        </li>
+        <li class="weather-box__item weather-box__item_10">
+            <span>Tokyo<br>8C</span>
+            <i class="icon wi wi-night-clear"></i>
+        </li>
+        <li class="weather-box__item weather-box__item_11">
+            <span>Sydney<br>25C</span>
+            <i class="icon wi wi-night-cloudy"></i>
+        </li>
+    </ul>
+    <li class="top">Have a nice day and don'' forget umbrella if you are in New Delhi now!</li>
+</div>
+
+</body>
+</html>
