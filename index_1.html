@@ -14,25 +14,35 @@
         li {
             list-style: none;
         }
-        body{
-            background-color:#3399cc;
-            border: 10 px solid navy;
-            position: relative;
-            align-content: center;
-        }
+
         .top{
             font: 20px "Lucida Grande";
             color:whitesmoke;
-            padding: 20%
+            margin:8%;
+            padding-left: 100px;
+            position:absolute;
         }
+.top__sign{
+    font: 20px "Lucida Grande";
+    color:whitesmoke;
+    margin:4%;
+    padding-left: 150px;
+    position:relative;
 
-        .container{
-            margin: 20%;
+}
+        .parent{
+            margin: 5%;
+            display:inline-block;
+            width:1200px;
+            height:730px;
+            background: #3399cc;
+            border:15px solid #2b81ac;
         }
         .weather-box {
             width: 900px;
             height:520px;
-            margin: auto;
+            margin-top: 7%;
+            margin-left:10%;
             font-size: 0;
             background: #3399cc;
             border:2px solid whitesmoke;
@@ -98,7 +108,7 @@
 </head>
 <body>
 <header><p1 class="top">CSS Weather Forecast <i class="icon wi wi-sunrise"></i></p1></header>
-<div><p2 class="container"><p class="context"CSS Weather Forecast <i class="wi wi-sunrise"></i></p>
+<div class="parent"<p3 class="context" CSS Weather Forecast <i class="wi wi-sunrise"></i></p3>
 
     <ul class="weather-box">
         <li class="weather-box__item weather-box__item_1">
@@ -148,7 +158,7 @@
             <i class="icon wi wi-night-cloudy"></i>
         </li>
     </ul>
-    <li class="top">Have a nice day and don'' forget umbrella if you are in New Delhi now!</li>
+    <li class="top__sign">Have a nice day and don't forget umbrella if you are in New Delhi now!</li>
 </div>
 
 </body>
